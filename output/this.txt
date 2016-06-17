@@ -1,0 +1,82 @@
+area,name,lat,long,id,vicinity,type
+ paris,Maison de Van Gogh,49.070652,2.171501,870bc1825cb0e9bcc295fae3d5b98369e058587d,52 Rue du Général de Gaulle Auvers-sur-Oise,restaurant | museum | food | establishment
+ paris,Tombe de Vincent van Gogh et de Théo à Auvers-sur-Oise,49.075223,2.178847,496ab253e206d3ed80f4b4122ef092e43ee1c982,Chemin des Vallées à Butry Auvers-sur-Oise,establishment
+ paris,Villa Van Gogh,48.880157,2.334224,f28b1a021a113f2fded7f1351b3445a0098bc330,2bis Cité Pigalle Paris,lodging | establishment
+ paris,Van Gogh,48.911278,2.300403,d0430bdc98dd0826db9416af34b301ef1134a80c,1 Île des Ravageurs Asnières-sur-Seine,bar | restaurant | food | establishment
+ paris,Lycée Vincent Van Gogh,48.954515,1.855116,5543ffd4f6c160e9e3d0ad46072b1c946f101961,8 Rue Jules Ferry Aubergenville,school | establishment
+ paris,College Vincent Van Gogh,48.903905,2.294388,690cbae2e8755546cf1d2ae22813dcb8b4bd137e,19 Rue Gustave Eiffel Clichy,school | establishment
+ paris,Lycée général et technologique Van Gogh,48.984095,2.254268,1781566d7e638b9a20a5cb15bb4ba646dd8dea31,Rue du Général Decaen Ermont,school | establishment
+ paris,École Élémentaire Van Gogh,48.996892,2.198812,0229036695b49ba5bcab3dadc1102138347d99c4,Rue Vincent Van Gogh Montigny-lès-Cormeilles,school | establishment
+ paris,Parking résidentiel Van Gogh,48.844788,2.371766,f18f58c283e2ae8fc17bef5137330a95b904d971,205 Rue de Bercy Paris,parking | establishment
+ paris,Collège Van Gogh,48.808622,2.620822,e8bea2e9192eb890584ff7d1a47555530f1061be,31 Rue d'Emery Émerainville,school | establishment
+ paris,Espace Van Gogh,48.843209,2.371351,bf40189a15506b7b76e4ec81e033b0a517e749fc,62 Quai de la Rapée Paris,establishment
+ paris,Groupe de Spécialistes Médicaux Van Gogh,49.008821,2.199525,988f564e972d4478586c4e0e76f1d34ab7ae7581,118 Chaussée Jules César Beauchamp,establishment
+ paris,Ecole Elémentaire Vincent Van-Gogh,49.199127,2.21216,70ceee4d13b6cbb69aecef32e7fa438c0349bc4d,Rue du 8 Mai Bornel,establishment
+ paris,Ecole maternelle Van Gogh,48.974028,2.645922,05939794e3fd020410e0af658809094eeee98295,Avenue Pablo Picasso Mitry-Mory,school | establishment
+ paris,accueil Van Gogh,48.974025,2.645928,75779cde92fa6dfea09795d58ff6ff0221330a77,Avenue Pablo Picasso Mitry-Mory,establishment
+ paris,Maison de Van Gogh,49.070652,2.171501,870bc1825cb0e9bcc295fae3d5b98369e058587d,52 Rue du Général de Gaulle Auvers-sur-Oise,restaurant | museum | food | establishment
+ paris,Villa Van Gogh,48.880157,2.334224,f28b1a021a113f2fded7f1351b3445a0098bc330,2bis Cité Pigalle Paris,lodging | establishment
+ paris,Van Gogh,48.911278,2.300403,d0430bdc98dd0826db9416af34b301ef1134a80c,1 Île des Ravageurs Asnières-sur-Seine,bar | restaurant | food | establishment
+ paris,Tombe de Vincent van Gogh et de Théo à Auvers-sur-Oise,49.075223,2.178847,496ab253e206d3ed80f4b4122ef092e43ee1c982,Chemin des Vallées à Butry Auvers-sur-Oise,establishment
+ paris,College Vincent Van Gogh,48.903905,2.294388,690cbae2e8755546cf1d2ae22813dcb8b4bd137e,19 Rue Gustave Eiffel Clichy,school | establishment
+ paris,Lycée général et technologique Van Gogh,48.984095,2.254268,1781566d7e638b9a20a5cb15bb4ba646dd8dea31,Rue du Général Decaen Ermont,school | establishment
+ paris,École Élémentaire Van Gogh,48.996892,2.198812,0229036695b49ba5bcab3dadc1102138347d99c4,Rue Vincent Van Gogh Montigny-lès-Cormeilles,school | establishment
+ paris,Lycée Vincent Van Gogh,48.954515,1.855116,5543ffd4f6c160e9e3d0ad46072b1c946f101961,8 Rue Jules Ferry Aubergenville,school | establishment
+ paris,Parking résidentiel Van Gogh,48.844788,2.371766,f18f58c283e2ae8fc17bef5137330a95b904d971,205 Rue de Bercy Paris,parking | establishment
+ paris,Collège Van Gogh,48.808622,2.620822,e8bea2e9192eb890584ff7d1a47555530f1061be,31 Rue d'Emery Émerainville,school | establishment
+ paris,Espace Van Gogh,48.843209,2.371351,bf40189a15506b7b76e4ec81e033b0a517e749fc,62 Quai de la Rapée Paris,establishment
+ paris,Ecole maternelle Van Gogh,48.974028,2.645922,05939794e3fd020410e0af658809094eeee98295,Avenue Pablo Picasso Mitry-Mory,school | establishment
+ paris,accueil Van Gogh,48.974025,2.645928,75779cde92fa6dfea09795d58ff6ff0221330a77,Avenue Pablo Picasso Mitry-Mory,establishment
+ paris,Groupe de Spécialistes Médicaux Van Gogh,49.008821,2.199525,988f564e972d4478586c4e0e76f1d34ab7ae7581,118 Chaussée Jules César Beauchamp,establishment
+ paris,Ecole Elémentaire Vincent Van-Gogh,49.199127,2.21216,70ceee4d13b6cbb69aecef32e7fa438c0349bc4d,Rue du 8 Mai Bornel,establishment
+ paris,Collège Van Gogh,48.808622,2.620822,e8bea2e9192eb890584ff7d1a47555530f1061be,31 Rue d'Emery Émerainville,school | establishment
+ paris,Résidence étudiante Van Gogh,48.523257,2.668045,82d3e231fa82e861de0e8604cbe5668a18d7abe2,3 Rue Claude Bernard Rochette (La),university | establishment
+ paris,Ecole Primaire Van Gogh,48.518828,2.659928,377362c9624834c6f6db192df607c0c797b0e5cf,11 Rue Van Gogh Rochette (La),school | establishment
+ paris,Parking résidentiel Van Gogh,48.844788,2.371766,f18f58c283e2ae8fc17bef5137330a95b904d971,205 Rue de Bercy Paris,parking | establishment
+ paris,Espace Van Gogh,48.843209,2.371351,bf40189a15506b7b76e4ec81e033b0a517e749fc,62 Quai de la Rapée Paris,establishment
+ paris,Résidence étudiante Van Gogh,48.523257,2.668045,82d3e231fa82e861de0e8604cbe5668a18d7abe2,3 Rue Claude Bernard Rochette (La),university | establishment
+ paris,Collège Van Gogh,48.808622,2.620822,e8bea2e9192eb890584ff7d1a47555530f1061be,31 Rue d'Emery Émerainville,school | establishment
+ paris,Ecole Primaire Van Gogh,48.518828,2.659928,377362c9624834c6f6db192df607c0c797b0e5cf,11 Rue Van Gogh Rochette (La),school | establishment
+ paris,Parking résidentiel Van Gogh,48.844788,2.371766,f18f58c283e2ae8fc17bef5137330a95b904d971,205 Rue de Bercy Paris,parking | establishment
+ paris,Espace Van Gogh,48.843209,2.371351,bf40189a15506b7b76e4ec81e033b0a517e749fc,62 Quai de la Rapée Paris,establishment
+area,name,lat,long,id,vicinity,type
+ paris,Maison de Van Gogh,49.070652,2.171501,870bc1825cb0e9bcc295fae3d5b98369e058587d,52 Rue du Général de Gaulle Auvers-sur-Oise,restaurant | museum | food | establishment
+ paris,Tombe de Vincent van Gogh et de Théo à Auvers-sur-Oise,49.075223,2.178847,496ab253e206d3ed80f4b4122ef092e43ee1c982,Chemin des Vallées à Butry Auvers-sur-Oise,establishment
+ paris,Villa Van Gogh,48.880157,2.334224,f28b1a021a113f2fded7f1351b3445a0098bc330,2bis Cité Pigalle Paris,lodging | establishment
+ paris,Van Gogh,48.911278,2.300403,d0430bdc98dd0826db9416af34b301ef1134a80c,1 Île des Ravageurs Asnières-sur-Seine,bar | restaurant | food | establishment
+ paris,Lycée Vincent Van Gogh,48.954515,1.855116,5543ffd4f6c160e9e3d0ad46072b1c946f101961,8 Rue Jules Ferry Aubergenville,school | establishment
+ paris,College Vincent Van Gogh,48.903905,2.294388,690cbae2e8755546cf1d2ae22813dcb8b4bd137e,19 Rue Gustave Eiffel Clichy,school | establishment
+ paris,Lycée général et technologique Van Gogh,48.984095,2.254268,1781566d7e638b9a20a5cb15bb4ba646dd8dea31,Rue du Général Decaen Ermont,school | establishment
+ paris,École Élémentaire Van Gogh,48.996892,2.198812,0229036695b49ba5bcab3dadc1102138347d99c4,Rue Vincent Van Gogh Montigny-lès-Cormeilles,school | establishment
+ paris,Parking résidentiel Van Gogh,48.844788,2.371766,f18f58c283e2ae8fc17bef5137330a95b904d971,205 Rue de Bercy Paris,parking | establishment
+ paris,Collège Van Gogh,48.808622,2.620822,e8bea2e9192eb890584ff7d1a47555530f1061be,31 Rue d'Emery Émerainville,school | establishment
+ paris,Espace Van Gogh,48.843209,2.371351,bf40189a15506b7b76e4ec81e033b0a517e749fc,62 Quai de la Rapée Paris,establishment
+ paris,Groupe de Spécialistes Médicaux Van Gogh,49.008821,2.199525,988f564e972d4478586c4e0e76f1d34ab7ae7581,118 Chaussée Jules César Beauchamp,establishment
+ paris,Ecole Elémentaire Vincent Van-Gogh,49.199127,2.21216,70ceee4d13b6cbb69aecef32e7fa438c0349bc4d,Rue du 8 Mai Bornel,establishment
+ paris,Ecole maternelle Van Gogh,48.974028,2.645922,05939794e3fd020410e0af658809094eeee98295,Avenue Pablo Picasso Mitry-Mory,school | establishment
+ paris,accueil Van Gogh,48.974025,2.645928,75779cde92fa6dfea09795d58ff6ff0221330a77,Avenue Pablo Picasso Mitry-Mory,establishment
+ paris,Maison de Van Gogh,49.070652,2.171501,870bc1825cb0e9bcc295fae3d5b98369e058587d,52 Rue du Général de Gaulle Auvers-sur-Oise,restaurant | museum | food | establishment
+ paris,Villa Van Gogh,48.880157,2.334224,f28b1a021a113f2fded7f1351b3445a0098bc330,2bis Cité Pigalle Paris,lodging | establishment
+ paris,Van Gogh,48.911278,2.300403,d0430bdc98dd0826db9416af34b301ef1134a80c,1 Île des Ravageurs Asnières-sur-Seine,bar | restaurant | food | establishment
+ paris,Tombe de Vincent van Gogh et de Théo à Auvers-sur-Oise,49.075223,2.178847,496ab253e206d3ed80f4b4122ef092e43ee1c982,Chemin des Vallées à Butry Auvers-sur-Oise,establishment
+ paris,College Vincent Van Gogh,48.903905,2.294388,690cbae2e8755546cf1d2ae22813dcb8b4bd137e,19 Rue Gustave Eiffel Clichy,school | establishment
+ paris,Lycée général et technologique Van Gogh,48.984095,2.254268,1781566d7e638b9a20a5cb15bb4ba646dd8dea31,Rue du Général Decaen Ermont,school | establishment
+ paris,École Élémentaire Van Gogh,48.996892,2.198812,0229036695b49ba5bcab3dadc1102138347d99c4,Rue Vincent Van Gogh Montigny-lès-Cormeilles,school | establishment
+ paris,Lycée Vincent Van Gogh,48.954515,1.855116,5543ffd4f6c160e9e3d0ad46072b1c946f101961,8 Rue Jules Ferry Aubergenville,school | establishment
+ paris,Parking résidentiel Van Gogh,48.844788,2.371766,f18f58c283e2ae8fc17bef5137330a95b904d971,205 Rue de Bercy Paris,parking | establishment
+ paris,Collège Van Gogh,48.808622,2.620822,e8bea2e9192eb890584ff7d1a47555530f1061be,31 Rue d'Emery Émerainville,school | establishment
+ paris,Espace Van Gogh,48.843209,2.371351,bf40189a15506b7b76e4ec81e033b0a517e749fc,62 Quai de la Rapée Paris,establishment
+ paris,Ecole maternelle Van Gogh,48.974028,2.645922,05939794e3fd020410e0af658809094eeee98295,Avenue Pablo Picasso Mitry-Mory,school | establishment
+ paris,accueil Van Gogh,48.974025,2.645928,75779cde92fa6dfea09795d58ff6ff0221330a77,Avenue Pablo Picasso Mitry-Mory,establishment
+ paris,Groupe de Spécialistes Médicaux Van Gogh,49.008821,2.199525,988f564e972d4478586c4e0e76f1d34ab7ae7581,118 Chaussée Jules César Beauchamp,establishment
+ paris,Ecole Elémentaire Vincent Van-Gogh,49.199127,2.21216,70ceee4d13b6cbb69aecef32e7fa438c0349bc4d,Rue du 8 Mai Bornel,establishment
+ paris,Collège Van Gogh,48.808622,2.620822,e8bea2e9192eb890584ff7d1a47555530f1061be,31 Rue d'Emery Émerainville,school | establishment
+ paris,Résidence étudiante Van Gogh,48.523257,2.668045,82d3e231fa82e861de0e8604cbe5668a18d7abe2,3 Rue Claude Bernard Rochette (La),university | establishment
+ paris,Ecole Primaire Van Gogh,48.518828,2.659928,377362c9624834c6f6db192df607c0c797b0e5cf,11 Rue Van Gogh Rochette (La),school | establishment
+ paris,Parking résidentiel Van Gogh,48.844788,2.371766,f18f58c283e2ae8fc17bef5137330a95b904d971,205 Rue de Bercy Paris,parking | establishment
+ paris,Espace Van Gogh,48.843209,2.371351,bf40189a15506b7b76e4ec81e033b0a517e749fc,62 Quai de la Rapée Paris,establishment
+ paris,Résidence étudiante Van Gogh,48.523257,2.668045,82d3e231fa82e861de0e8604cbe5668a18d7abe2,3 Rue Claude Bernard Rochette (La),university | establishment
+ paris,Collège Van Gogh,48.808622,2.620822,e8bea2e9192eb890584ff7d1a47555530f1061be,31 Rue d'Emery Émerainville,school | establishment
+ paris,Ecole Primaire Van Gogh,48.518828,2.659928,377362c9624834c6f6db192df607c0c797b0e5cf,11 Rue Van Gogh Rochette (La),school | establishment
+ paris,Parking résidentiel Van Gogh,48.844788,2.371766,f18f58c283e2ae8fc17bef5137330a95b904d971,205 Rue de Bercy Paris,parking | establishment
+ paris,Espace Van Gogh,48.843209,2.371351,bf40189a15506b7b76e4ec81e033b0a517e749fc,62 Quai de la Rapée Paris,establishment
