@@ -6,12 +6,9 @@ php:
   - 5.5
   - 5.6
 
-install:
-  - composer install
-
 before_script:
   - mkdir -p build/logs
-  - cd tests
+  - cd test
 
 script:
-  - phpunit --colors test/GooglePlacesSearchTest.php
+  - phpunit --colors GooglePlacesSearchTest.php
