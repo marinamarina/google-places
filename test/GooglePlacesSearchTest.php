@@ -3,21 +3,26 @@ require_once '../src/GooglePlacesSearch.php';
 
 class GooglePlacesSearchTest extends PHPUnit_Framework_TestCase {
       public function setUp() {
-        $this->places = new GooglePlacesSearch('', 'mandela');
-    }
-    public function testGetAreas() {
-
+          $apiKey = '';
+        $this->places = new GooglePlacesSearch($apiKey, 'mandela');
     }
 
-    public function testQueryApi() {
-
-    }
-
-    public function testSetRadius() {
+    public function test_get_areas() {
+        $this->markTestSkipped( 'PHPUnit will skip this test method' );
 
     }
 
-    public function testSetLanguage() {
+    public function test_query_api() {
+         $this->markTestSkipped( 'PHPUnit will skip this test method' );
 
+    }
+
+    public function test_set_radius() {
+         $this->markTestSkipped( 'PHPUnit will skip this test method' );
+    }
+
+    public function test_set_language() {
+        $this->assertEquals('en', $this->places->_language);
+        $this->places->__set($this->places->_language, 'cz');
     }
 }

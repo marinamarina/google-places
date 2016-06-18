@@ -9,6 +9,9 @@ class GooglePlacesSearch {
     private $lines_count = 0;
     private $lng_step = 0.5;
     private $lat_step = 0.6;
+    private $radius = null;
+    protected $_language = 'en';
+    private $ary;
 
     /*
      * Construct the query
@@ -23,6 +26,16 @@ class GooglePlacesSearch {
         $this->api_key = $api_key;
         $this->query = $query;
 	}
+    /**
+    * Setters and getters
+    */
+    public function __set($_language, $language) {
+        $this->_language = $language;
+    }
+
+    public function __get($_language) {
+      return $this->$_language;
+  }
 
     /*
      * Read a set of coordinates from the file holding locations coordinates
