@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/marinamarina/google-places.svg?branch=master)](https://travis-ci.org/marinamarina/google-places)
+
 ## A PHP wrapper around Google Places API
 
 This is a wrapper around Google Places API. The main purpose of the wrapper is to search "places" (schools, restaurants, museums) that have a provided keyword in their name. An example task would be to find places in Paris named after Neslon Mandela. It is possible to specify your own area (or several of them) and perform a search just within this areas.
