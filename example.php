@@ -1,5 +1,5 @@
 <?php
-	require_once('lib/GooglePlacesSearch.php');
+	require_once('src/GooglePlacesSearch.php');
 
 	$apiKey = 'AIzaSyCcnjLmWQYr0eP3_Er1DwyBOlKo6gGjDng'; //'Your Google Places API Key';
 	$keyword = 'Mandela'; //For example, 'Mandela' will search by places named by Mandela
