@@ -148,7 +148,14 @@ class GooglePlacesSearch {
 
                while($lng < $lngEnd ) {
 
-                    $url = "https://maps.googleapis.com/maps/api/place/nearbysearch/json?location={$lat},{$lng}&radius=50000&name={$this->query}&language=en-GB&sensor=true&key={$this->google_places_api_key}";
+                    $nearby_search_base_url = "https://maps.googleapis.com/maps/api/place/nearbysearch/json?";
+                    $url = $nearby_search_base_url
+                          . "location={$lat},{$lng}
+                          &radius=50000
+                          &name={$this->query}
+                          &language={$this->_language}
+                          &sensor=true
+                          &key={$this->google_places_api_key}";
 
                     $output = json_decode($this->query_api($url), true);
                     echo ' area: ' . $currentArea . ' | ' . 'lat: ' . $lat . ' | long: ' . $lng . ' | ';
