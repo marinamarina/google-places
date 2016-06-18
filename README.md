@@ -1,10 +1,10 @@
 ## A PHP wrapper around Google Places API
 
-This is a wrapper around Google Places API. The main purpose of the wrapper is to search places all over the world (eg., schools, restaurant, museums) having a keyword in the name, for example named after a certain person. It is possible to specify your own areas (or several of them) and perform a search just within those areas.
+This is a wrapper around Google Places API. The main purpose of the wrapper is to search "places" (schools, restaurants, museums) that have a provided keyword in their name. An example task would be to find places in Paris named after Neslon Mandela. It is possible to specify your own area (or several of them) and perform a search just within this areas.
+
 The wrapper saves a list of found places as a .txt file.
 
-
-## Obtaining an API key ##
+## Get an API key ##
 
 To be able to use this script, you will need a Google Places API key. To request an API key, point your browser to
 https://code.google.com/apis/console and follow the instructions there. You can find your API key on the *API Access* tab under *Simple API Access*.
@@ -18,7 +18,7 @@ Register a new GooglePlacesSearch object providing the following parameters:
 * *query*: string
 
 
-Specify the areas within which you want to perfom the search using the following format:
+Specify areas within which you want to perfom the search using the following format:
 * area_name topLeftLong topLeftLat bottomRightLong bottomRightLat *
 
 To search the whole world use the following set of areas:
@@ -29,7 +29,7 @@ To search the whole world use the following set of areas:
  asia,50,60,8,125,
  europe,65,-12,35,60
 
- You can add as many areas as you like, just remember to add a new area to a new line.
+ You can add as many areas as you like, just remember to always add a each area on a separate.
 
 ### Perform Search ###
 ```php
