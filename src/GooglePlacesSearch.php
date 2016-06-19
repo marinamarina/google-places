@@ -55,14 +55,23 @@ class GooglePlacesSearch {
     /**
      * Sends a request via curl and returns the response
      */
-    private function query_api($url){
-	    $ch = curl_init($url);
-        curl_setopt ($ch, CURLOPT_FOLLOWLOCATION, TRUE);
-        curl_setopt ($ch, CURLOPT_RETURNTRANSFER, 1);
-        curl_setopt ($ch, CURLOPT_SSL_VERIFYPEER, FALSE);
-        $curl_result = curl_exec($ch);
-        if ($curl_result === false) echo curl_error($ch);
-        curl_close($ch);
+    private function query_api($url) {
+        $curl = curl_init($url);
+
+        $options = array (
+            CURLOPT_FOLLOWLOCATION => true,
+            CURLOPT_RETURNTRANSFER => 1,
+            CURLOPT_SSL_VERIFYPEER => false
+        );
+
+        curl_setopt_array($curl, $options);
+        $curl_result = curl_exec($curl);
+
+        if ($error = curl_error($curl)) {
+            echo $error;
+        }
+
+        curl_close($curl);
 
         return $curl_result;
 	}
