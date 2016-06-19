@@ -39,7 +39,7 @@ To search the whole world use the following set of areas:
 	require_once('lib/GooglePlacesSearch.php');
 
 	$apiKey = 'Your Google Places API Key';
-	$keyword = 'Mandela'; //For example, 'Mandela' will search by places named by Mandela
+	$keyword = 'Mandela'; //For example, 'Mandela' will search for places named by Mandela
 
 	// Coordinates provided in the input file should be set as google.maps.LatLng objects
 	$mandela_search = new GooglePlacesSearch($apiKey, $keyword);
