@@ -5,20 +5,20 @@ class GooglePlacesSearch {
     private $output_file = 'output/this.txt';
     private $set_of_searched_areas = array();
     private $base_url = 'https://maps.googleapis.com/maps/api/place/nearbysearch/json';
-    private $api_key = null;
-    private $query = null;
     private $lines_count = 0;
+    private $ary;
     private $lng_step = 0.5;
     private $lat_step = 0.6;
     private $_radius = 50000;
-    protected $_language = 'en-GB';
-    private $ary;
+    private $_query = null;
+    private $_language = 'en-GB';
+    private $api_key = null;
 
     /*
      * Construct the query
      */
 	public function __construct($api_key, $query) {
-		ini_set('memory_limit', '512M');
+	    ini_set('memory_limit', '512M');
         $this->ary[] = 'UTF-8';
         $this->ary[] = 'ASCII';
         $this->ary[] = 'EUC-JP';
@@ -27,15 +27,51 @@ class GooglePlacesSearch {
         $this->api_key = $api_key;
         $this->query = $query;
 	}
+
     /**
     * Setters and getters
     */
-    public function __set($_language, $language) {
+    public function getRadius() {
+        return $this->_radius;
+    }
+
+    public function setRadius($radius) {
+        $this->_radius = $radius;
+    }
+
+    public function setQuery($query) {
+        $this->_query = urlencode($query);
+    }
+
+    public function getLanguage() {
+        return $this->_language;
+    }
+
+    public function setLanguage($language) {
         $this->_language = $language;
     }
 
-    public function __get($_language) {
-      return $this->$_language;
+    public function __get($var) {
+        $func = 'get'.$var;
+        if (method_exists($this, $func)) {
+            return $this->$func();
+        } else {
+            throw new Exception("Inexistent property: $var");
+        }
+    }
+
+    public function __set($var, $value) {
+        $func = 'set'.$var;
+
+        if (method_exists($this, $func)) {
+            $this->$func($value);
+        } else {
+            if (method_exists($this, 'get'.$var)) {
+                throw new Exception("property $var is read-only");
+            } else {
+                throw new Exception("Inexistent property: $var");
+            }
+        }
     }
 
     /*
@@ -157,8 +193,7 @@ class GooglePlacesSearch {
         	   	$lng = $lngStart; //reset longitude
 
                while($lng < $lngEnd ) {
-
-                    $url = "{$this->base_url}?location={$lat},{$lng}&{$this->_radius}&name={$this->query}&language={$this->_language}&sensor=true&key={$this->api_key}";
+                    $url = "{$this->base_url}?location={$lat},{$lng}&radius={$this->_radius}&name={$this->_query}&language={$this->_language}&sensor=true&key={$this->api_key}";
 
                     $output = json_decode($this->query_api($url), true);
                     echo ' area: ' . $currentArea . ' | ' . 'lat: ' . $lat . ' | long: ' . $lng . ' | ';

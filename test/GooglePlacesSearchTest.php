@@ -3,7 +3,7 @@ require_once '../src/GooglePlacesSearch.php';
 
 class GooglePlacesSearchTest extends PHPUnit_Framework_TestCase {
       public function setUp() {
-          $apiKey = '';
+        $apiKey = '';
         $this->places = new GooglePlacesSearch($apiKey, 'mandela');
     }
 
@@ -14,15 +14,18 @@ class GooglePlacesSearchTest extends PHPUnit_Framework_TestCase {
 
     public function test_query_api() {
          $this->markTestSkipped( 'PHPUnit will skip this test method' );
-
     }
 
     public function test_set_radius() {
-         $this->markTestSkipped( 'PHPUnit will skip this test method' );
+        $this->assertEquals(50000, $this->places->getRadius());
+        $this->places->setRadius(3000);
+        $this->assertEquals(3000, $this->places->getRadius());
     }
 
     public function test_set_language() {
-        $this->assertEquals('en-GB', $this->places->_language);
-        $this->places->__set($this->places->_language, 'cz');
+        $this->assertEquals('en-GB', $this->places->getLanguage());
+        $this->places->setLanguage('cz');
+        $this->assertEquals('cz', $this->places->getLanguage());
     }
+
 }
