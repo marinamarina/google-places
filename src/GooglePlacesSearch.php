@@ -4,13 +4,14 @@ class GooglePlacesSearch {
     private $searched_areas_source_file = 'input/set_of_searched_areas.csv';
     private $output_file = 'output/this.txt';
     private $set_of_searched_areas = array();
+    private $base_url = 'https://maps.googleapis.com/maps/api/place/nearbysearch/json';
     private $api_key = null;
     private $query = null;
     private $lines_count = 0;
     private $lng_step = 0.5;
     private $lat_step = 0.6;
     private $radius = null;
-    protected $_language = 'en';
+    protected $_language = 'en-GB';
     private $ary;
 
     /*
@@ -148,14 +149,7 @@ class GooglePlacesSearch {
 
                while($lng < $lngEnd ) {
 
-                    $nearby_search_base_url = "https://maps.googleapis.com/maps/api/place/nearbysearch/json?";
-                    $url = $nearby_search_base_url
-                          . "location={$lat},{$lng}
-                          &radius=50000
-                          &name={$this->query}
-                          &language={$this->_language}
-                          &sensor=true
-                          &key={$this->google_places_api_key}";
+                    $url = "{$this->base_url}?location={$lat},{$lng}&radius=50000&name={$this->query}&language={$this->_language}&sensor=true&key={$this->api_key}";
 
                     $output = json_decode($this->query_api($url), true);
                     echo ' area: ' . $currentArea . ' | ' . 'lat: ' . $lat . ' | long: ' . $lng . ' | ';
