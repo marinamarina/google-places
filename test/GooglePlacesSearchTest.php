@@ -22,7 +22,7 @@ class GooglePlacesSearchTest extends PHPUnit_Framework_TestCase {
     }
 
     public function test_set_language() {
-        $this->assertEquals('en', $this->places->_language);
+        $this->assertEquals('en-GB', $this->places->_language);
         $this->places->__set($this->places->_language, 'cz');
     }
 }

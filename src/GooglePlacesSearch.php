@@ -10,7 +10,7 @@ class GooglePlacesSearch {
     private $lines_count = 0;
     private $lng_step = 0.5;
     private $lat_step = 0.6;
-    private $radius = null;
+    private $_radius = 50000;
     protected $_language = 'en-GB';
     private $ary;
 
@@ -36,7 +36,7 @@ class GooglePlacesSearch {
 
     public function __get($_language) {
       return $this->$_language;
-  }
+    }
 
     /*
      * Read a set of coordinates from the file holding locations coordinates
@@ -158,7 +158,7 @@ class GooglePlacesSearch {
 
                while($lng < $lngEnd ) {
 
-                    $url = "{$this->base_url}?location={$lat},{$lng}&radius=50000&name={$this->query}&language={$this->_language}&sensor=true&key={$this->api_key}";
+                    $url = "{$this->base_url}?location={$lat},{$lng}&{$this->_radius}&name={$this->query}&language={$this->_language}&sensor=true&key={$this->api_key}";
 
                     $output = json_decode($this->query_api($url), true);
                     echo ' area: ' . $currentArea . ' | ' . 'lat: ' . $lat . ' | long: ' . $lng . ' | ';
